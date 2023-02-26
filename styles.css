@@ -1,5 +1,84 @@
-.slideshow-container {
+.container {
+    overflow-x: hidden;
+}
+
+.slideshow{
     position: relative;
+    list-style: none;
+    height: 150vh;
+    width: 150vw;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.slideshow li{
+    height: 150vh;
+    width: 150vw;
+    position: absolute;
+    top: -20vh;
+    left: -20vh;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    overflow-x: hidden;
+    animation: slideshowAnimation 80s linear infinite; 
+}
+
+.slideshow li:nth-child(1) { 
+    background-image: url('img/bees.jpg') 
+}
+.slideshow li:nth-child(2) { 
+    background-image:url('img/cow.jpg');
+    animation-delay: 10s; 
+}
+.slideshow li:nth-child(3) { 
+    background-image: url('img/peony.jpg');
+    animation-delay: 20s; 
+}
+.slideshow li:nth-child(4) { 
+    background-image: url('img/playful-cow.jpg');
+    animation-delay: 30s; 
+}
+.slideshow li:nth-child(5) { 
+    background-image: url('img/polar-bear.jpg');
+    animation-delay: 40s; 
+}
+.slideshow li:nth-child(6) { 
+    background-image: url('img/poppies.jpg');
+    animation-delay: 50s; 
+}
+.slideshow li:nth-child(7) { 
+    background-image: url('img/sassy-cow.jpg');
+    animation-delay: 60s; 
+}
+.slideshow li:nth-child(8) { 
+    background-image: url('img/swan.jpg');
+    animation-delay: 70s; 
+}
+
+@keyframes slideshowAnimation { 
+    0% { 
+        opacity: 0; 
+        animation-timing-function: ease-in;
+    }
+    10% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    20% {
+        opacity: 1
+    }
+    30% {
+        opacity: 0
+    }
+}
+
+/* .slideshow-container {
+    position: relative;
+    max-height: 1140px;
+    overflow: hidden;
   }
   
   .slideshow-image {
@@ -8,5 +87,5 @@
     left: 0;
     opacity: 0;
     transition: opacity 1s;
-  }
+  } */
   
