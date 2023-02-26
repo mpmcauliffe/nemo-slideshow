@@ -1,3 +1,8 @@
+
+body {
+    height: 200vh;
+}
+
 .container {
     overflow-x: hidden;
 }
@@ -5,14 +10,14 @@
 .slideshow{
     position: relative;
     list-style: none;
-    height: 150vh;
+    height: 200vh;
     width: 150vw;
     margin: 0 auto;
     overflow-x: hidden;
 }
 
 .slideshow li{
-    height: 150vh;
+    height: 200vh;
     width: 150vw;
     position: absolute;
     top: -20vh;
@@ -40,6 +45,7 @@
 .slideshow li:nth-child(4) { 
     background-image: url('../img/playful-cow.jpg');
     animation-delay: 30s; 
+    left: 0;
 }
 .slideshow li:nth-child(5) { 
     background-image: url('../img/polar-bear.jpg');
@@ -52,10 +58,12 @@
 .slideshow li:nth-child(7) { 
     background-image: url('../img/sassy-cow.jpg');
     animation-delay: 60s; 
+    left: -50vw;
 }
 .slideshow li:nth-child(8) { 
     background-image: url('../img/swan.jpg');
     animation-delay: 70s; 
+    left: -50vw;
 }
 
 @keyframes slideshowAnimation { 
@@ -74,6 +82,23 @@
         opacity: 0
     }
 }
+
+/*
+    bees - scroll up
+    cow - scroll left
+    peony - zoom out
+    playful cow - scroll right
+    polar bear - scroll up
+    poppies - scroll up
+    sassy cow - zoom in
+    peacock - zoom out
+
+    scroll up
+    scroll left
+    scroll right
+    zoom out
+    zoom in
+*/
 
 /* .slideshow-container {
     position: relative;
