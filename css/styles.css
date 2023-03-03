@@ -1,6 +1,7 @@
 
 body {
     height: 200vh;
+    background-color: black;
 }
 
 .container {
@@ -35,7 +36,7 @@ body {
     background-image: url('../img/bees.jpg'); 
 }
 .slideshow li:nth-child(2) { 
-    background-image:url('../img/cow.jpg');
+    background-image: url('../img/cow.jpg');
     animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
