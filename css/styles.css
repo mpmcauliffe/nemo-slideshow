@@ -17,7 +17,7 @@ body {
     overflow-x: hidden;
 }
 
-.slideshow li{
+.slideshow li {
     height: 200vh;
     width: 150vw;
     position: absolute;
