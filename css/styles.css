@@ -33,14 +33,14 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-    background-image: url('./img/bees.jpg'); 
+    background-image: url('../img/bees-1.jpg'); 
 }
 .slideshow li:nth-child(2) { 
     background-image: url('../img/cow.jpg');
     animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-    background-image: url('./img/peony.jpg');
+    background-image: url('../img/peony-1.jpg');
     animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
@@ -53,7 +53,7 @@ body {
     animation-delay: 40s; 
 }
 .slideshow li:nth-child(6) { 
-    background-image: url('./img/poppies.jpg');
+    background-image: url('../img/poppies-1.jpg');
     animation-delay: 50s; 
 }
 .slideshow li:nth-child(7) { 
