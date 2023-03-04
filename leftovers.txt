@@ -1,0 +1,48 @@
+
+ORIGINAL
+
+<ul class='slideshow'>
+    <li class="scroll-up">
+        <!-- <img alt='bees' src='./img/bees.jpg'> -->
+    </li>
+    <li class="scroll-left">
+        <!-- <img src='./img/cow.jpg' alt='cow'> -->
+    </li>
+    <li class="zoom-out">
+        <!-- <img src='./img/peony.jpg' alt='peony'> -->
+    </li>
+    <li class="scroll-right">
+        <!-- <img src='./img/playful-cow.jpg' alt='playful-cow'> -->
+    </li>
+    <li class="scroll-up">
+        <!-- <img src='./img/polar-bear.jpg' alt='polar-bear'> -->
+    </li>
+    <li class="scroll-up">
+        <!-- <img src='./img/poppies.jpg' alt='poppies'> -->
+    </li>
+    <li class="zoom-in">
+        <!-- <img src='./img/sassy-cow.jpg' alt='sassy-cow'> -->
+    </li>
+    <li class="zoom-out">
+        <!-- <img src='./img/swan.jpg' alt='swan'> -->
+    </li>
+</ul>
+
+
+
+
+
+
+FROM CLOUD 9
+<div class='slideshow-container'>
+    <img src='./img/Bees.jpg' class='slideshow-image' />
+    <img src='./img/cow.jpg' class='slideshow-image' />
+    <img src='img/Peony.jpg' class='slideshow-image' />
+    <img src='img/Playful Cow.jpg' class='slideshow-image' />
+    <img src='img/Polar Bear.jpg' class='slideshow-image' />
+    <img src='img/Poppies.jpg' class='slideshow-image' />
+    <img src='img/Sassy Cow.jpg' class='slideshow-image' />
+    <img src='img/The Swan.jpg' class='slideshow-image' />
+</div>
+
+
